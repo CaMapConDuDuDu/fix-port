@@ -1,0 +1,1 @@
+[...document.querySelectorAll('form')].forEach(e => e.action = e.action.replace(/^(http[s]?:\/\/[a-zA-Z0-9]+:\d+)(:\d+)?(\/.*)$/g, "$1$3"))
